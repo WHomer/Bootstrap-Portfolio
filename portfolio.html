@@ -1,94 +1,135 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>William Homer</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 	<!-- start linking css files -->
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<!-- start header with main nav -->
-	<div class="navbar">
-		<div class="navbar-name">
-			William Homer
-		</div>
-		<div class="navbar-nav">
-			<ul>
-				<li class="nav-link"><a href="index.html">About</a></li>
-				<li class="nav-link"><a href="portfolio.html">Portfolio</a></li>
-				<li class="nav-link"><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</div>
-	<!-- end header with main nav -->
+	
+	  <nav class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	          <span class="sr-only">Toggle navigation</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="./index.html">William Homer</a>
+      </div>
+	      </div>
+	      <div id="navbar" class="collapse navbar-collapse">
+	        <ul class="nav navbar-nav navbar-right">
+	          <li class="nav-link"><a href="./index.html">About</a></li>
+	          <li class="active nav-link"><a href="./portfolio.html">Portfolio</a></li>
+	          <li class="nav-link"><a href="./contact.html">Contact</a></li>
+	        </ul>
+	      </div><!--/.nav-collapse -->
+	  </nav>
 <div class="container">
 	<!-- start main content section -->
-	<div class="">
-		<div class="main-content">
-			<h1 class="title">Portfolio</h1>
-			<div class="portfolio-container">
-				<div>
-					<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
-					<div class="portfolio-label">
-						Hangman
+	<div class="row">
+		<div class="col-lg-9 col-sm-12 content">
+		<h1 class="page-header lead">Portfolio</h1>
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
+					<div class="portfolio-container">
+						<div>
+							<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
+							<div class="portfolio-label">
+								Hangman
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-sm-6 col-xs-12">
+					<div class="portfolio-container">
+						<div>
+							<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
+							<div class="portfolio-label">
+								RPG Game
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>	
-			<div class="portfolio-container">
-				<div>
-					<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
-					<div class="portfolio-label">
-						RPG Game
+				<div class="col-lg-4 col-sm-6 col-xs-12">
+					<div class="portfolio-container">
+						<div>
+							<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
+							<div class="portfolio-label">
+								Trivia Game
+							</div>
+						</div>
+					</div>
+				</div>		
+				<div class="col-lg-4 col-sm-6 col-xs-12">
+					<div class="portfolio-container">
+						<div>
+							<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
+							<div class="portfolio-label">
+								Rulgers Info Widget
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="portfolio-container">
-				<div>
-					<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
-					<div class="portfolio-label">
-						Trivia Game
-					</div>
-				</div>
-			</div>
-			<div class="portfolio-container">
-				<div>
-					<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
-					<div class="portfolio-label">
-						Rulgers Info Widget
-					</div>
-				</div>
-			</div>
-			<div class="portfolio-container">
-				<div>
-					<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
-					<div class="portfolio-label">
-						Rock Paper Scissors
+				<div class="col-lg-4 col-sm-6 col-xs-12">
+					<div class="portfolio-container">
+						<div>
+							<img class="portfolio-images" src="assets/images/ph-250x200.png" alt="Placeholder">
+							<div class="portfolio-label">
+								Rock Paper Scissors
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- start right column -->
-		<div class="side-panel">
-			<h3 class="side-title">
+		<div class="col-lg-3 col-sm-12 content">
+			<h3 class="lead page-header">
 				Connect with Me
 			</h3>
 			<div class="connect-logo">
-				<a href="https://github.com/WHomer"><img src="assets/images/github_square_black.png" alt="Github Logo"></a>
-				<a href="https://stackexchange.com/users/7922136/william-homer"><img src="assets/images/stackoverflow.png" alt="stackoverflow Logo"></a>
-				<a href="https://www.linkedin.com/in/william-homer-686b8594"><img src="assets/images/linkedin_square_color.png" alt="LinkedIn Logo"></a>
+					<a href="https://github.com/WHomer"><img src="assets/images/github_square_black.png" alt="Github Logo"></a>
+					<a href="https://stackexchange.com/users/7922136/william-homer"><img src="assets/images/stackoverflow.png" alt="stackoverflow Logo"></a>
+					<a href="https://www.linkedin.com/in/william-homer-686b8594"><img src="assets/images/linkedin_square_color.png" alt="LinkedIn Logo"></a>
 			</div>
 		</div>
 		<!-- end right column -->
 	</div>
 	<!-- end main content section -->
-</div> <!-- Eend container -->
+</div> <!-- end container -->
 	<!-- start footer -->
 	<div class="footer">
-		<div class="tealbar"></div>
-		<div class="footer-content">
+		<div class="conatiner">
 			&copy; Copyright 2017 William Homer
 		</div>
 	</div>
+
+	<script>
+	  $(function() {
+	    $(".nav a").click(function() {
+	      $("nav").find(".active").removeClass("active");
+	      $(this).parent().addClass("active");
+	    });
+	  });
+	</script>
 	<!-- end footer -->
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
 </body>
 </html>
+
+
+
+
+
+
